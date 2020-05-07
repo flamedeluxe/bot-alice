@@ -1,0 +1,27 @@
+{
+    "name": "krok/driver-yandex-alisa",
+    "description": "Botman Yandex Alisa driver",
+    "keywords": [
+        "Bot",
+        "BotMan",
+        "Yandex Alisa",
+        "Alisa"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alexander",
+            "email": "creator@nsign.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "botman/botman": "~2.0",
+        "illuminate/support": "~5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "BotMan\\Drivers\\YAlisa\\": "src"
+        }
+    }
+}
